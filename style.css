@@ -10,7 +10,7 @@
 body{
     max-width: 450px ;
     margin: auto;
-    background: lightblue;
+    background: rgb(236, 236, 236);
     position: relative;
 }
 main, header{
@@ -29,7 +29,49 @@ header{
 .header{
     position: absolute;
     top: 40px;
-    right: 40px;
+    right: 30px;
     font-size: 24px;
-    text-shadow: 2px 2px 2px lightblue;
+    text-shadow: 2px 2px 2px lightgrey;
+}
+main{
+    padding: 10px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 10px; */
+    border-bottom: 1px solid lightgrey;
+    /* padding: 10px; */
+}
+.food{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.add_symbol{
+    width: 35px;
+    height: 35px;
+    color: lightgrey;
+    margin: 5px;
+}
+.description-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 20px;
+}
+.description-price h3{
+    font-weight: 100;
+}
+.food-calorie h5{
+    font-weight: 100;
+    color: lightgrey;
+}
+.food-calorie{
+    display: flex;
+    flex-direction: column;
 }
