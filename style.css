@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Smythe', cursive;
+}
+
+body{
+    max-width: 450px ;
+    margin: auto;
+    background: lightblue;
+    position: relative;
+}
+main, header{
+    background-color: white;
+    height: 100vh;
+}
+header{
+    background-color: black;
+    height: 150px;
+    color: white;
+    background-image: url(images/sk-CK6tjAIMJWM-unsplash.jpg);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: -40px -40px;
+}
+.header{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 24px;
+    text-shadow: 2px 2px 2px lightblue;
+}
