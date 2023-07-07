@@ -1,3 +1,7 @@
+import { items } from "/food_Data.js"
+
+console.log(items)
+
 const htmlRender = document.getElementById('htmlRender')
 
 htmlRender.innerHTML = `

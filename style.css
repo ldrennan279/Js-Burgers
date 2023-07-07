@@ -42,9 +42,7 @@ main{
     height: 100px;
     justify-content: space-between;
     align-items: center;
-    /* margin: 10px; */
     border-bottom: 1px solid lightgrey;
-    /* padding: 10px; */
 }
 .food{
     width: 75px;
